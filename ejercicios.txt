@@ -1,0 +1,15 @@
+Los ejercicios de curso de kubernetes deben estar en formato yaml, en ficheros separados.
+En caso de que no tengas que realizar un tipo de tarea que disponga ficheros se puede subir las imagenes en un PDF.
+
+1. Crear un pod con la imagen httpd:latest y hacer que el contenido de la web sea el del fichero index.html del repositorio.
+Muestra el proceso de la creacion del pod y una imagen de el contenido de la aplicacion (port forward) haciendo un curl ip:port
+
+2. Crea un namespace con un plantilla yaml llamada unidad3
+   Crea un deployment con una imagen de nginx que tenga 4 replicas en el namespace unidad3.
+
+3. Añade al deployment anterior las siguientes variables de entorno (fichero variables.yaml) y aplica la nueva configuracion.
+    Muestra como se han aplicado las nuevas variables de entorno a los pods de dicho deployment.
+
+4. Practicando los rollbacks haz un rollback de la aplicacion al estado anterior, es decir sin variables de entorno y finalmente muestra el proceso.
+
+
